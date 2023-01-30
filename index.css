@@ -1,0 +1,106 @@
+.parent{
+    border: 5px groove greenyellow;
+    padding: 8px;
+    margin: 0px;
+    background-image: url(./img.png);
+    padding-bottom: 35px;
+}
+
+.box{
+    border: 5px solid red;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;     
+}
+.inline{
+    font-size: 20px;
+
+}
+
+.up{
+    position: relative;
+    bottom: 40px;
+    padding: 20px 5px 30px 25px;
+    
+}
+.mid{
+    position: relative;
+    bottom: 45px;
+    padding: 20px 20px 5px 40px;
+    margin-left: -60px;
+    margin-right: 40px;
+}
+.down{
+    padding: 1px 50px 1px 50px;
+
+}
+.u{
+margin-top: 5px;
+}
+.d{
+    margin-bottom: 5px;
+}
+.parent2{
+margin-top: 30px;
+}
+.circle{
+    position: relative;
+    bottom: 200px;
+    border: 5px solid gray;
+    background-color: #44A99F;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+.t{
+    margin-top: 55px;
+}
+.form{
+    color: palevioletred;
+    display: inline-block;
+    border: 4px dashed red;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+::placeholder{
+    text-align: center;
+}
+.menu{
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 30px;
+    font-size: 18px;      
+    border: 5px solid red;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.child{
+    width: 280px;
+    height: 280px;
+    border: 3px solid green;
+    background-color: #63FBFD;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.parent3{
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+}
+
